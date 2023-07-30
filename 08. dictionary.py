@@ -16,3 +16,8 @@ movie3 = {
 print(f"{movie1['name']}의 상영 요일은 {movie1['day']}입니다.")
 print(f"{movie2['name']}의 상영 요일은 {movie2['day']}입니다.")
 print(f"{movie3['name']}의 상영 요일은 {movie3['day']}입니다.")
+
+x = {100: 'hundred', False: 0, 3.5: [3.5, 3.5]}
+x['jordaeni13'] = 'baehancheol'
+print(x)
+print(x[100])
