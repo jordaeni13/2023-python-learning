@@ -68,4 +68,5 @@ for i in example_range: #example_range 대신 range(0,10)을 바로 넣어도 �
 print(sum)
 
 
-#list comprehension
+#list comprehension - square number
+sqrnum = [i*i for i in range(1, 11)]
