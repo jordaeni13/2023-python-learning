@@ -49,7 +49,7 @@ sum = 0
 try:
     iter_range = iter(example_range)
     while True:
-        i = iter_sequence.__next__()
+        i = iter_range.__next__()
         sum += i
 except StopIteration:
     pass
